@@ -49,15 +49,15 @@ public:
     {
         workTime += time;
     }
-    int GetPaty() const
+    int GetPay() const
     {
         return workTime * payPerHour;
     }
     void ShowSalaryInfo() const
     {
         ShowYourName();
-        // cout << "salary: " << GetPay() << endl
-        //      << endl;
+        cout << "salary: " << GetPay() << endl
+             << endl;
     }
 };
 
